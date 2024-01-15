@@ -23,9 +23,10 @@ public class LoginPage extends BaseClass {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void enterUnameAndPass(String userName, String passWord) {
-
+	public void enterUnameAndPass(String userName, String passWord) throws InterruptedException {
+		Thread.sleep(2000);
 		Wait.sendKeys(username, userName);
+		Thread.sleep(2000);
 		Wait.sendKeys(pass, passWord);
 
 	}

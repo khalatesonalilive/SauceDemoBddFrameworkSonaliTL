@@ -13,7 +13,7 @@ public class LoginPageSteps extends BaseClass {
 	}
 	
 	@When("user enters a valid username and password")
-	public void user_enters_a_valid_username_password()
+	public void user_enters_a_valid_username_password() throws InterruptedException
 	{
 		 loginPage=new LoginPage();
 		 loginPage.enterUnameAndPass("standard_user", "secret_sauce");
