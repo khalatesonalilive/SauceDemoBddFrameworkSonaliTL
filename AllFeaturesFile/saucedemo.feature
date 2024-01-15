@@ -19,3 +19,6 @@ Feature: Test Sauce Demo Application
     Given user is on Checkout page and validate checkOut Page Url
     When user enters valid firstname, lastname and postalcode
     Then user click on continue button
+
+  Scenario: Test CheckoutOverviewPage Functionality
+    Given user is on checkoutOverview Page and click on Finish button
