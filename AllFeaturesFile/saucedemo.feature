@@ -22,3 +22,6 @@ Feature: Test Sauce Demo Application
 
   Scenario: Test CheckoutOverviewPage Functionality
     Given user is on checkoutOverview Page and click on Finish button
+
+  Scenario: Test CheckoutComplete Page Functionality
+    Given user capture the checkoutcomplete msg
