@@ -10,3 +10,7 @@ Feature: Test Sauce Demo Application
     And user validate Home Page URL
     And user click on Sauce Labs Backpack and Sauce Labs Bike Light
     Then user click on shopping cart button
+
+  Scenario: Test Your Cart Functionality
+    Given user is on Your Cart Page and validate  Your cart Page URL
+    And user click on Checkout button
